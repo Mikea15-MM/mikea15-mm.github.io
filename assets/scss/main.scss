@@ -19,3 +19,22 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center bottom;
     min-height: 400px;
 }
+
+.bg-fullpage {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 400px;
+    background-color: #face7a;
+
+    .alt-color {
+        background-color: #88ffec;
+    }
+
+    .section-title {
+        margin-top: 25px;
+    }
+}
