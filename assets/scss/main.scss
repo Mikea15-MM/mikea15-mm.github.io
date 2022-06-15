@@ -1,10 +1,15 @@
+$color1: #7a939c;
+$color_main: #1d1d1d;
+$color_accent: #fee38d;
+$color_alt: #f7c174;
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Exo 2', sans-serif;
-    
+    color: $color_main;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,22 +29,22 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('/assets/img/m/monte_01.jpg');
 }
 .bg-img2 {
-    background-image: url('/assets/img/m/monte_02.JPG');
+    background-image: url('/assets/img/m/monte_02.jpg');
 }
 .bg-img3 {
-    background-image: url('/assets/img/m/monte_03.JPG');
+    background-image: url('/assets/img/m/monte_03.jpg');
 }
 .bg-img4 {
-    background-image: url('/assets/img/m/monte_04.JPG');
+    background-image: url('/assets/img/m/monte_04.jpg');
 }
 .bg-img5 {
-    background-image: url('/assets/img/m/monte_05.JPG');
+    background-image: url('/assets/img/m/monte_05.jpg');
 }
 .bg-img6 {
-    background-image: url('/assets/img/m/monte_06.JPG');
+    background-image: url('/assets/img/m/monte_06.jpg');
 }
 .bg-img7 {
-    background-image: url('/assets/img/m/monte_07.JPG');
+    background-image: url('/assets/img/m/monte_07.jpg');
 }
 
 @media screen and (max-width: 768px) {
@@ -47,22 +52,22 @@ h1, h2, h3, h4, h5, h6 {
         background-image: url('/assets/img/m/monte_s_01.jpg');
     }
     .bg-img2 {
-        background-image: url('/assets/img/m/monte_s_02.JPG');
+        background-image: url('/assets/img/m/monte_s_02.jpg');
     }
     .bg-img3 {
-        background-image: url('/assets/img/m/monte_s_03.JPG');
+        background-image: url('/assets/img/m/monte_s_03.jpg');
     }
     .bg-img4 {
-        background-image: url('/assets/img/m/monte_s_04.JPG');
+        background-image: url('/assets/img/m/monte_s_04.jpg');
     }
     .bg-img5 {
-        background-image: url('/assets/img/m/monte_s_05.JPG');
+        background-image: url('/assets/img/m/monte_s_05.jpg');
     }
     .bg-img6 {
-        background-image: url('/assets/img/m/monte_s_06.JPG');
+        background-image: url('/assets/img/m/monte_s_06.jpg');
     }
     .bg-img7 {
-        background-image: url('/assets/img/m/monte_s_07.JPG');
+        background-image: url('/assets/img/m/monte_s_07.jpg');
     }
 }
 
