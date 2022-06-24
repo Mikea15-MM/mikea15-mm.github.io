@@ -1,7 +1,10 @@
-$color1: #7a939c;
-$color_main: #1d1d1d;
-$color_accent: #fee38d;
-$color_alt: #f7c174;
+
+
+$color-main: #15191b;
+$color-accent: #79919b;
+
+$color-alt: #f7c174;
+$color-alt-darker: #d6a662;
 
 html {
     scroll-behavior: smooth;
@@ -9,83 +12,100 @@ html {
 
 body {
     font-family: 'Exo 2', sans-serif;
-    color: $color_main;
-}
+    color: $color-main;
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Shadows Into Light', cursive;
-    font-style: italic;
-}
+    .text-alt {
+        color: $color-main;
+    }
 
-.bg-spacer {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    min-height: 400px;
-}
+    .bg-alt {
+        background-color: $color-alt !important;
 
-.bg-img1 {
-    background-image: url('/assets/img/m/monte_01.jpg');
-}
-.bg-img2 {
-    background-image: url('/assets/img/m/monte_02.jpg');
-}
-.bg-img3 {
-    background-image: url('/assets/img/m/monte_03.jpg');
-}
-.bg-img4 {
-    background-image: url('/assets/img/m/monte_04.jpg');
-}
-.bg-img5 {
-    background-image: url('/assets/img/m/monte_05.jpg');
-}
-.bg-img6 {
-    background-image: url('/assets/img/m/monte_06.jpg');
-}
-.bg-img7 {
-    background-image: url('/assets/img/m/monte_07.jpg');
-}
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Shadows Into Light', cursive;
+            font-style: italic;
+            color: $color-main;
+        }
+    }
 
-@media screen and (max-width: 768px) {
+    .bg-fullpage {
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 400px;
+        background-color: #face7a;
+    
+        .alt-color {
+            background-color: #88ffec;
+        }
+    
+        .section-title {
+            margin-top: 25px;
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Shadows Into Light', cursive;
+        font-style: italic;
+        color: $color-alt-darker;
+    }
+    
+    .bg-spacer {
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        min-height: 400px;
+    }
+    
     .bg-img1 {
-        background-image: url('/assets/img/m/monte_s_01.jpg');
+        background-image: url('/assets/img/m/monte_01.jpg');
     }
     .bg-img2 {
-        background-image: url('/assets/img/m/monte_s_02.jpg');
+        background-image: url('/assets/img/m/monte_02.jpg');
     }
     .bg-img3 {
-        background-image: url('/assets/img/m/monte_s_03.jpg');
+        background-image: url('/assets/img/m/monte_03.jpg');
     }
     .bg-img4 {
-        background-image: url('/assets/img/m/monte_s_04.jpg');
+        background-image: url('/assets/img/m/monte_04.jpg');
     }
     .bg-img5 {
-        background-image: url('/assets/img/m/monte_s_05.jpg');
+        background-image: url('/assets/img/m/monte_05.jpg');
     }
     .bg-img6 {
-        background-image: url('/assets/img/m/monte_s_06.jpg');
+        background-image: url('/assets/img/m/monte_06.jpg');
     }
     .bg-img7 {
-        background-image: url('/assets/img/m/monte_s_07.jpg');
+        background-image: url('/assets/img/m/monte_07.jpg');
     }
+    
+    @media screen and (max-width: 768px) {
+        .bg-img1 {
+            background-image: url('/assets/img/m/monte_s_01.jpg');
+        }
+        .bg-img2 {
+            background-image: url('/assets/img/m/monte_s_02.jpg');
+        }
+        .bg-img3 {
+            background-image: url('/assets/img/m/monte_s_03.jpg');
+        }
+        .bg-img4 {
+            background-image: url('/assets/img/m/monte_s_04.jpg');
+        }
+        .bg-img5 {
+            background-image: url('/assets/img/m/monte_s_05.jpg');
+        }
+        .bg-img6 {
+            background-image: url('/assets/img/m/monte_s_06.jpg');
+        }
+        .bg-img7 {
+            background-image: url('/assets/img/m/monte_s_07.jpg');
+        }
+    }   
 }
 
-.bg-fullpage {
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    height: 400px;
-    background-color: #face7a;
 
-    .alt-color {
-        background-color: #88ffec;
-    }
-
-    .section-title {
-        margin-top: 25px;
-    }
-}
