@@ -2,6 +2,7 @@
 
 $color-main: #15191b;
 $color-accent: #79919b;
+$color-accent-darker: #2a3f47;
 
 $color-alt: #f7c174;
 $color-alt-darker: #d6a662;
@@ -12,19 +13,25 @@ html {
 
 body {
     font-family: 'Exo 2', sans-serif;
-    color: $color-main;
+    color: $color-accent-darker;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Merriweather Sans', cursive;
+    }
+
+    .btn-yellow {
+        background-color: $color-alt;
+    }
 
     .text-alt {
-        color: $color-main;
+        color: $color-accent-darker;
     }
 
     .bg-alt {
         background-color: $color-alt !important;
 
         h1, h2, h3, h4, h5, h6 {
-            font-family: 'Shadows Into Light', cursive;
-            font-style: italic;
-            color: $color-main;
+            color: $color-accent-darker;
         }
     }
 
@@ -48,8 +55,6 @@ body {
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Shadows Into Light', cursive;
-        font-style: italic;
         color: $color-alt-darker;
     }
     
@@ -59,6 +64,10 @@ body {
         background-repeat: no-repeat;
         background-position: center bottom;
         min-height: 400px;
+    }
+
+    .display-1 {
+        font-style: normal;
     }
     
     .bg-img1 {

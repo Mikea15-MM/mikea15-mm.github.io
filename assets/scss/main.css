@@ -4,18 +4,22 @@ html {
 
 body {
   font-family: "Exo 2", sans-serif;
-  color: #15191b;
+  color: #2a3f47;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Merriweather Sans", cursive;
+}
+body .btn-yellow {
+  background-color: #f7c174;
 }
 body .text-alt {
-  color: #15191b;
+  color: #2a3f47;
 }
 body .bg-alt {
   background-color: #f7c174 !important;
 }
 body .bg-alt h1, body .bg-alt h2, body .bg-alt h3, body .bg-alt h4, body .bg-alt h5, body .bg-alt h6 {
-  font-family: "Shadows Into Light", cursive;
-  font-style: italic;
-  color: #15191b;
+  color: #2a3f47;
 }
 body .bg-fullpage {
   margin: 0;
@@ -34,8 +38,6 @@ body .bg-fullpage .section-title {
   margin-top: 25px;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Shadows Into Light", cursive;
-  font-style: italic;
   color: #d6a662;
 }
 body .bg-spacer {
@@ -44,6 +46,9 @@ body .bg-spacer {
   background-repeat: no-repeat;
   background-position: center bottom;
   min-height: 400px;
+}
+body .display-1 {
+  font-style: normal;
 }
 body .bg-img1 {
   background-image: url("/assets/img/m/monte_01.jpg");
