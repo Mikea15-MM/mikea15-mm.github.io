@@ -6,6 +6,9 @@ body {
   font-family: "Exo 2", sans-serif;
   color: #2a3f47;
 }
+body ol {
+  margin: 0px;
+}
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Merriweather Sans", cursive;
 }
