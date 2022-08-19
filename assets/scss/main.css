@@ -15,6 +15,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 body .btn-yellow {
   background-color: #f7c174;
 }
+body .text-yellow {
+  color: #d6a662;
+}
 body .text-alt {
   color: #2a3f47;
 }
@@ -54,34 +57,34 @@ body .display-1 {
   font-style: normal;
 }
 body .bg-img1 {
-  background-image: url("/assets/img/m/monte_11.jpg");
+  background-image: url("/assets/img/m/monte_11.png");
 }
 body .bg-img2 {
-  background-image: url("/assets/img/m/monte_02.jpg");
+  background-image: url("/assets/img/m/monte_02.png");
 }
 body .bg-img3 {
-  background-image: url("/assets/img/m/monte_05.jpg");
+  background-image: url("/assets/img/m/monte_05.png");
 }
 body .bg-img4 {
-  background-image: url("/assets/img/m/monte_09.jpg");
+  background-image: url("/assets/img/m/monte_09.png");
 }
 body .bg-img5 {
-  background-image: url("/assets/img/m/monte_07.jpg");
+  background-image: url("/assets/img/m/monte_07.png");
 }
 @media screen and (max-width: 768px) {
   body .bg-img1 {
-    background-image: url("/assets/img/m/monte_s_11.jpg");
+    background-image: url("/assets/img/m/monte_s_11.png");
   }
   body .bg-img2 {
-    background-image: url("/assets/img/m/monte_s_02.jpg");
+    background-image: url("/assets/img/m/monte_s_02.png");
   }
   body .bg-img3 {
-    background-image: url("/assets/img/m/monte_s_05.jpg");
+    background-image: url("/assets/img/m/monte_s_05.png");
   }
   body .bg-img4 {
-    background-image: url("/assets/img/m/monte_s_09.jpg");
+    background-image: url("/assets/img/m/monte_s_09.png");
   }
   body .bg-img5 {
-    background-image: url("/assets/img/m/monte_s_07.jpg");
+    background-image: url("/assets/img/m/monte_s_07.png");
   }
 }/*# sourceMappingURL=main.css.map */
