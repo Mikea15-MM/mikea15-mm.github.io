@@ -67,10 +67,10 @@ body {
     }
     
     .bg-spacer {
-        background-attachment: fixed;
+        background-attachment: local;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center bottom;
+        background-position: center center;
         min-height: 400px;
     }
 
@@ -80,9 +80,11 @@ body {
     
     .bg-img1 {
         background-image: url('/assets/img/m/monte_11.png');
+        background-position: center bottom;
     }
     .bg-img2 {
         background-image: url('/assets/img/m/monte_02.png');
+        background-position: center bottom;
     }
     .bg-img3 {
         background-image: url('/assets/img/m/monte_05.png');

@@ -47,10 +47,10 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #d6a662;
 }
 body .bg-spacer {
-  background-attachment: fixed;
+  background-attachment: local;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center center;
   min-height: 400px;
 }
 body .display-1 {
@@ -58,9 +58,11 @@ body .display-1 {
 }
 body .bg-img1 {
   background-image: url("/assets/img/m/monte_11.png");
+  background-position: center bottom;
 }
 body .bg-img2 {
   background-image: url("/assets/img/m/monte_02.png");
+  background-position: center bottom;
 }
 body .bg-img3 {
   background-image: url("/assets/img/m/monte_05.png");
